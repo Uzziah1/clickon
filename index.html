@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7209e6d758.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Home | tegawende-azaria-kabore</title>
+</head>
+<body>
+   <!--navigation menu-->
+    <header>
+        <div class="navbar">
+            
+            <li>
+                <a href="home.php">Home</a>
+                <a href="projects.php">Projects</a>
+                <a href="contact.php">Contact</a>
+            </li>   
+                     
+        </div>
+        </header>
+        <!--middle content-->
+        <div class="container">
+            <div class="description">
+                <p>Hello, my name is</p>
+                <h1>Tegawendé Azaria KABORE,</h1>
+                <h2>i'm front-end Developer and graphic Designer
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate 
+                velit esse cillum dolore eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident, 
+                sunt in culpa qui officia deserunt mollit anim 
+                id est laborum
+                </h2>
+                <button onclick="window.location.href = 'projects.php';">See my works</button>
+            </div>
+            <!--picture portrait-->
+            <div class="portraitbtn">
+                <div class="myportrait"><img src="bbart.png" alt="aza"></div>
+                <div class="socialmedias">
+                    <a id="social" href="https://www.linkedin.com/in/uzziahkaboret/" class="fab fa-linkedin"></a>
+                    <a id="social" href="https://web.facebook.com/azakaboret" class="fab fa-facebook"></a>
+                    <a id="social" href="https://web.facebook.com/azakaboret" class="fab fa-twitter"></a>
+                     <a id="social" href="#" class="fab fa-instagram"></a>
+                 </div>
+                <p class="skills">HTML5 | CSS3 | JavaScript | Front-End Development | Laravel 
+                    | Graphic Design | HR Management <i class="fa-solid fa-circle-right"></i>&rightarrow;</p>
+                </div>
+            </div>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200&display=swap');
+body{
+    font-family: Jost;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(243, 202, 32, 0.3);
+}
+
+/* navigation menu*/
+header{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    top: 0px;  
+    border-bottom: 3px double #f3ca20ff;
+}
+
+.navbar{
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 65%;
+    box-sizing: border-box;
+}
+
+.navbar li{
+    list-style: none;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    font-family: jost;
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 20px;
+    color: #f3ca20ff;
+    font-weight: bold;
+}
+
+a:hover{
+    color: white;
+}
+
+
+/* middlefiedl content*/
+
+.container{
+    background-color: rgba(243, 202, 33, 0);
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:0;
+    box-sizing: border-box;
+    padding-left: 150px;
+    padding-top: 50px;
+}
+
+.description{
+    margin-left: 30px;
+    margin-top: 100px;
+    width: 570px;
+    padding-left: 0px;
+    box-sizing: border-box;
+    height: 350px;
+    /*border: 1px solid black;*/
+    margin-right: 50px;
+}
+
+p{
+    justify-content: center;
+    color: rgb(132, 132, 136);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+h1{
+    font-size: 20px;
+    font-weight: bold;
+    color: #f3ca20ff;
+    margin-top: -10px;
+    background-color: black;
+}
+
+h2{
+    font-weight: bolder;
+    font-size: 15px;
+    margin-top: -10px;
+    font-size: 20px;
+    color: rgb(132, 132, 136);
+
+}
+
+.portraitbtn{
+    width: 700px;
+    /*border: 1px solid black;*/
+    display: inline-block;
+   
+}
+
+.myportrait{
+    /*border: 1px solid black;*/
+    height: 550px;
+    margin-bottom: 20px;
+}
+
+.socialmedias{
+    
+    display: flex;
+    flex-wrap: wrap;
+    text-align: initial;
+    justify-content: space-between;
+    
+}
+
+#socialmedias:hover{
+    background-color: white;
+}
+
+#social{
+    color: rgb(132, 132, 136);
+}
+
+#social:hover{
+    color: rgb(0, 0, 0);
+}
+
+.skills{
+    font-size: 15px;
+    color:#f3ca20ff;
+    background-color: rgb(0, 0, 0) ;
+}
+
+button{
+    font-family: Jost;
+    font-size: 20px;
+    display: inline-block;
+    background-color: black;
+    border: 4px double #cccccc;
+    color: white;
+    text-align: center;
+    width: 150px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+     margin: 5px;
+}
+
+button:hover{
+    border: 4px double #f3ca20ff;
+}
+</style>
+    
+    
+</body>
+</html>
